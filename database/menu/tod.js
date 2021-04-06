@@ -1,12 +1,12 @@
 const tod = (prefix, botName, ownerName) => {
         return `
-        ┏ *〈 Petaca BOT 〉*
+        ┏ 〈 Petaca BOT 〉
         ╿
-        ┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
+        ┷┯ 〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉
            ╽
-           ┠≽ *Creator* : Petaka
-           ┠≽ *Version* : 29
-           ┠≽ *Developer* : Sammy
+           ┠≽ Creator : Petaca
+           ┠≽ Version : 29
+           ┠≽ Developer : Sammy
          
            ╿
 ┯┷ *〈 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 〉*
@@ -33,7 +33,7 @@ const tod = (prefix, botName, ownerName) => {
    ┠──────────────╼
    ┠≽ *${prefix}dare*
    ┃ *Desc* : Atrévete al azar
-   ╿ *Sammy*,
+   ╿ *Developer: SAMMY*,
    ╰╼≽ *Creador © Petaca`
 }
 exports.tod = tod

@@ -1,12 +1,12 @@
 const stickermaker = (prefix, botName, ownerName) => {
 	return `
-   ┏ *〈 Petaca BOT 〉*
+   ┏ 〈 Petaca BOT 〉
    ╿
-   ┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
+   ┷┯ 〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉
       ╽
-      ┠≽ *Creator* : Petaka
-      ┠≽ *Version* : 29
-      ┠≽ *Developer* : Sammy
+      ┠≽ Creator : Petaca
+      ┠≽ Version : 29
+      ┠≽ Developer : Sammy
     
       ╿
 ┯┷ *〈 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 〉*
@@ -36,7 +36,7 @@ const stickermaker = (prefix, botName, ownerName) => {
    ┠──────────────╼
    ┠≽ *${prefix}ttp*
    ┃ *Desc* : Texto para pegatina
-   ╿ *Sammy*,
+   ╿ *Developer: SAMMY*,
    ╰╼≽ *Creador © Petaca`
 }
 exports.stickermaker = stickermaker

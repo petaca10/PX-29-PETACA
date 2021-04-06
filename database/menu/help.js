@@ -12,12 +12,15 @@ const help = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
    ┠≽ *No Privado Al Bot
    ┠≽ *No Pedir Muchos Comandos Por Minuto
    ╿
-┯┷ *〈 𝐼𝑁𝐹𝑂 𝐷𝐸𝐿 𝐵𝑂𝑇 〉*
-╽
-┠≽ *Creator* : Petaka
-┠≽ *Version* : 29
-┠≽ *Developer* : Sammy
-╿
+   ┏ 〈 Petaca BOT 〉
+   ╿
+   ┷┯ 〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉
+      ╽
+      ┠≽ Creator : Petaca
+      ┠≽ Version : 29
+      ┠≽ Developer : Sammy
+    
+      ╿
 ┷┯ *〈 𝑀𝐸𝑁𝑈 〉*
    ┠≽ *${prefix}logomakermenu* (𝐿𝑜𝑔𝑜 𝑀𝑒𝑛𝑢)
    ┠≽ *${prefix}imagemakermenu* (𝐼𝑚𝑎𝑔𝑒𝑛 𝑀𝑒𝑛𝑢)
@@ -42,10 +45,9 @@ const help = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
    ┠≽ *${prefix}limitmenu* (𝑀𝑒𝑛𝑢 𝐷𝑒 𝐿𝑖𝑚𝑖𝑡𝑒𝑠)
    ┠≽ *${prefix}ownermenu* (𝑀𝑒𝑛𝑢 𝐷𝑒𝑙 𝐶𝑟𝑒𝑎𝑑𝑜𝑟)
    ┠≽ *${prefix}othermenu* (𝑀𝑒𝑛𝑢 𝐷𝑒 𝑂𝑡𝑟𝑜𝑠)
-   ╿
-   ╰╼≽  
-  
+   ╿ *Developer: SAMMY*,
+   ╰╼≽ *Creador © Petaca`
    
-   `
+   
 }
 exports.help = help

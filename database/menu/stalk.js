@@ -1,12 +1,12 @@
 const stalk = (prefix, botName, ownerName) => {
         return `
-        ┏ *〈 Petaca BOT 〉*
+        ┏ 〈 Petaca BOT 〉
         ╿
-        ┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
+        ┷┯ 〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉
            ╽
-           ┠≽ *Creator* : Petaka
-           ┠≽ *Version* : 29
-           ┠≽ *Developer* : Sammy
+           ┠≽ Creator : Petaca
+           ┠≽ Version : 29
+           ┠≽ Developer : Sammy
          
            ╿
 ┯┷ *〈 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 〉*
@@ -25,14 +25,7 @@ const stalk = (prefix, botName, ownerName) => {
 ┠──────────────╼
 ┠≽ *${prefix}bugreport* <text>
 ┃ *Desc* : Informar de un error al propietario del bot
-╿
-┷┯*〈 𝐵𝑈𝑆𝐶𝐴𝑅 𝐸𝑁 𝐿𝐴𝑆 𝑅𝐸𝐷𝐸𝑆 〉*
-   ╽
-   ┠≽ *${prefix}tiktokstalk* <username>
-   ┃ *Desc* : Obtener información de TikTok Usuario
-   ┠≽ *${prefix}igstalk* <username>
-   ┃ *Desc* : Obtener información de Instagram Usuario
-   ╿ *Sammy*,
+   ╿ *Developer: SAMMY*,
    ╰╼≽ *Creador © Petaca`
 }
 exports.stalk = stalk

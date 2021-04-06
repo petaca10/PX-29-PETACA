@@ -1,13 +1,14 @@
 const limit = (prefix, botName, ownerName) => {
         return `
-        ┏ *〈 Petaca BOT〉
-        ┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
+        ┏ 〈 Petaca BOT 〉
+        ╿
+        ┷┯ 〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉
            ╽
-           ┠≽ *Prefix* : 「  ${prefix}  」
-           ┠≽ *Creator* : Petaka
-           ┠≽ *Version* : 29
-           ┠≽ *Developer* : Sammy
-           ╿┏
+           ┠≽ Creator : Petaca
+           ┠≽ Version : 29
+           ┠≽ Developer : Sammy
+         
+           ╿
 ┯┷ *〈 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 〉*
 ╽
 ┠≽ *${prefix}info* (error)
@@ -35,7 +36,9 @@ const limit = (prefix, botName, ownerName) => {
    ┠──────────────╼
    ┠≽ *${prefix}buylimit* <count>
    ┃ *Desc* : Compra al limite
-   ╿ *Petaca*,
-   ╰╼≽ *Creador © Petaca`
+   ╿ *Developer: SAMMY*,
+   ╰╼≽ *Creador © Petaca
+
+`
 }
-exports.kerang = kerang
+exports.limit = limit

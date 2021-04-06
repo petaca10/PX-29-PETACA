@@ -1,13 +1,14 @@
 const islam = (prefix, botName, ownerName) => {
         return `
-┏ *〈 Petaca BOT〉
-┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
-   ╽
-   ┠≽ *Prefix* : 「  ${prefix}  」
-   ┠≽ *Creator* : Petaka
-   ┠≽ *Version* : 29
-   ┠≽ *Developer* : Sammy
-   ╿
+        ┏ 〈 Petaca BOT 〉
+        ╿
+        ┷┯ 〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉
+           ╽
+           ┠≽ Creator : Petaca
+           ┠≽ Version : 29
+           ┠≽ Developer : Sammy
+         
+           ╿
 ┯┷ *〈 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 〉*
 ╽
 ┠≽ *${prefix}info* (error)
@@ -32,7 +33,7 @@ const islam = (prefix, botName, ownerName) => {
    ┠──────────────╼
    ┠≽ *${prefix}jsholat* <area>
    ┃ *Desc* :  Envío de información sobre el horario de oración
-   ╿ *Sammy*,
+   ╿ *Developer: SAMMY*,
    ╰╼≽ *Creador © Petaca`
 }
 exports.islam = islam

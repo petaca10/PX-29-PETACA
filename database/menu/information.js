@@ -1,14 +1,14 @@
 const information = (prefix, botName, ownerName) => {
         return `
-┏ *〈 Petaca BOT 〉*
-╿
-┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
-   ╽
-   ┠≽ *Prefix* : 「  ${prefix}  」
-   ┠≽ *Creator* : Petaka
-   ┠≽ *Version* : 29
-   ┠≽ *Developer* : Sammy
-   ╿
+        ┏ 〈 Petaca BOT 〉
+        ╿
+        ┷┯ 〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉
+           ╽
+           ┠≽ Creator : Petaca
+           ┠≽ Version : 29
+           ┠≽ Developer : Sammy
+         
+           ╿
 ┯┷ *〈 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 〉*
 ╽
 ┠≽ *${prefix}info* (error)
@@ -48,7 +48,7 @@ const information = (prefix, botName, ownerName) => {
    ┠──────────────╼
    ┠≽ *${prefix}covidcountry* <country>
    ┃ *Desc* : Envío de información de Covid-19
-   ╿ *Petaca*,
-   ╰╼≽ *Creador © Petaca,Sammy`
+   ╿ *Developer: SAMMY*,
+   ╰╼≽ *Creador © Petaca`
 }
 exports.information = information
