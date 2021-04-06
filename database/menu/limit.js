@@ -1,14 +1,13 @@
 const limit = (prefix, botName, ownerName) => {
         return `
-┏ *〈 ${botName} 〉*
-╿
-┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
-   ╽
-   ┠≽ *Prefix* : 「  ${prefix}  」
-   ┠≽ *Creator* : Petaka
-   ┠≽ *Version* : 29
-   ┠≽ *Developer* : Sammy
-   ╿
+        ┏ *〈 Petaca BOT〉
+        ┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
+           ╽
+           ┠≽ *Prefix* : 「  ${prefix}  」
+           ┠≽ *Creator* : Petaka
+           ┠≽ *Version* : 29
+           ┠≽ *Developer* : Sammy
+           ╿┏
 ┯┷ *〈 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 〉*
 ╽
 ┠≽ *${prefix}info* (error)
@@ -36,10 +35,7 @@ const limit = (prefix, botName, ownerName) => {
    ┠──────────────╼
    ┠≽ *${prefix}buylimit* <count>
    ┃ *Desc* : Compra al limite
-   ╿ *${ownerName}*,
-   ╰╼≽ *Creador © ${botName}
---------------------------------
-Note: Kamu bisa membeli limit dengan cara mengumpulkan uang terlebih dahulu. Cek uang kamu dengan cara mengetikan perintah *${prefix}bal* , harga 1 limit = 1000 uang.
-Note2: Kamu bisa mengumpulkan uang dengan cara chat dengan teman segroup atau bisa dengan naik level.`
+   ╿ *Petaca*,
+   ╰╼≽ *Creador © Petaca`
 }
-exports.limit = limit
+exports.kerang = kerang

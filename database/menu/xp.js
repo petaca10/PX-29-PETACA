@@ -39,9 +39,9 @@ const xp = (prefix, botName, ownerName) => {
    ┠──────────────╼
    ┠≽ *${prefix}event* <1/0>
    ┃ *Desc* : Habilitar / deshabilitar funciones de eventos
-   ╿ *${ownerName}*,
-   ╰╼≽ *Creador © ${botName}
---------------------------------
-Note: Kamu bisa mengumpulkan xp dan menaikan levelmu dengan cara chat dengan siapapun di dalam grup yang telah di aktifkan fitur leveling.`
+   ╿ *Petaca*,
+   ╰╼≽ *Creador © Petaca`
+
+
 }
 exports.xp = xp

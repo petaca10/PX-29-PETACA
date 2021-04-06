@@ -1,6 +1,6 @@
 const information = (prefix, botName, ownerName) => {
         return `
-┏ *〈 ${botName} 〉*
+┏ *〈 Petaca BOT 〉*
 ╿
 ┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
    ╽
@@ -48,7 +48,7 @@ const information = (prefix, botName, ownerName) => {
    ┠──────────────╼
    ┠≽ *${prefix}covidcountry* <country>
    ┃ *Desc* : Envío de información de Covid-19
-   ╿ *${ownerName}*,
-   ╰╼≽ *Creador © ${botName}`
+   ╿ *Petaca*,
+   ╰╼≽ *Creador © Petaca,Sammy`
 }
 exports.information = information

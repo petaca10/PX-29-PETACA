@@ -1,14 +1,13 @@
 const other = (prefix, botName, ownerName) => {
         return `
-┏ *〈 ${botName} 〉*
-╿
-┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
-   ╽
-   ┠≽ *Prefix* : 「  ${prefix}  」
-   ┠≽ *Creator* : Petaka
-   ┠≽ *Version* : 29
-   ┠≽ *Developer* : Sammy
-   ╿
+        ┏ *〈 Petaca BOT 〉*
+        ╿
+        ┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
+           ╽
+           ┠≽ *Creator* : Petaka
+           ┠≽ *Version* : 29
+           ┠≽ *Developer* : Sammy
+  
 ┯┷ *〈 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 〉*
 ╽
 ┠≽ *${prefix}info* (error)
@@ -35,7 +34,8 @@ const other = (prefix, botName, ownerName) => {
    ┠≽ *${prefix}timer*
    ┠≽ *${prefix}fml*
    ┠≽ *${prefix}fml2*
-   ╿ *${ownerName}*,
-   ╰╼≽ *Creador © ${botName}`
+   ╿ *Sammy*,
+   ╰╼≽ *Creador © Petaca`
+  
 }
 exports.other = other

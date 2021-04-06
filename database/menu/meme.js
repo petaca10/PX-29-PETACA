@@ -1,14 +1,13 @@
 const meme = (prefix, botName, ownerName) => {
 	return `
-┏ *〈 ${botName} 〉*
-╿
-┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
-   ╽
-   ┠≽ *Prefix* : 「  ${prefix}  」
-   ┠≽ *Creator* : Petaka
-   ┠≽ *Version* : 29
-   ┠≽ *Developer* : Sammy
+   ┏ *〈 Petaca BOT 〉*
    ╿
+   ┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
+      ╽
+      ┠≽ *Creator* : Petaka
+      ┠≽ *Version* : 29
+      ┠≽ *Developer* : Sammy
+
 ┯┷ *〈 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 〉*
 ╽
 ┠≽ *${prefix}info* (error)
@@ -32,7 +31,7 @@ const meme = (prefix, botName, ownerName) => {
    ┃ *Desc* : Enviar meme aleatorio [eng]
    ┠≽ *${prefix}memeindo*
    ┃ *Desc* : Enviar meme aleatorio [indo]
-   ╿ *${ownerName}*,
-   ╰╼≽ *Creador © ${botName}`
+   ╰╼≽ *Creador © Petaca`
+
 }
 exports.meme = meme

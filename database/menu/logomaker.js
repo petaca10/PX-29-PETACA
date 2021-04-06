@@ -1,13 +1,13 @@
 const logomaker = (prefix, botName, ownerName) => {
         return `
-┏ *〈 ${botName} 〉*
-╿
-┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
-   ╽
-   ┠≽ *Prefix* : 「  ${prefix}  」
-   ┠≽ *Creator* : Petaka
-   ┠≽ *Version* : 29
-   ┠≽ *Developer* : Sammy
+        ┏ *〈 Petaca BOT 〉*
+        ╿
+        ┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
+           ╽
+           ┠≽ *Creator* : Petaka
+           ┠≽ *Version* : 29
+           ┠≽ *Developer* : Sammy
+  
    ╿
 ┯┷ *〈 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐂𝐈𝐎𝐍 〉*
 ╽

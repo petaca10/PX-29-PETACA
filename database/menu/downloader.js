@@ -1,6 +1,6 @@
 const downloader = (prefix, botName, ownerName) => {
 	return `
-┏ *〈 ${botName} 〉*
+┏ *〈 Petaca BOT 〉*
 ╿
 ┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
    ╽
@@ -26,20 +26,8 @@ const downloader = (prefix, botName, ownerName) => {
 ┠≽ *${prefix}bugreport* <text>
 ┃ *Desc* : Informar de un error al propietario del bot
 ╿
-┷┯*〈 𝐷𝐸𝑆𝐶𝐴𝑅𝐺𝐴𝑆 〉*
+┷┯*
    ╽
-   ┠≽ *${prefix}pinterest* <query>
-   ┃ *Desc* : Descargar imagen de Pinterest
-   ┠──────────────╼
-   ┠≽ *${prefix}ytmp3* <linkyt>
-   ┃ *Desc* : Descargar videos de Youtube a MP3
-   ┠──────────────╼
-   ┠≽ *${prefix}ytmp4* <linkyt>
-   ┃ *Desc* : Descargar video de Youtube
-   ┠──────────────╼
-   ┠≽ *${prefix}tiktok* <linktiktok>
-   ┃ *Desc* : Descargar video de TikTok
-   ╿ *${ownerName}*,
-   ╰╼≽ *Creador © ${botName}`
+   ╰╼≽ *Creador © Petaca,sammy`
 }
 exports.downloader = downloader

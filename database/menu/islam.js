@@ -1,7 +1,6 @@
 const islam = (prefix, botName, ownerName) => {
         return `
-┏ *〈 ${botName} 〉*
-╿
+┏ *〈 Petaca BOT〉
 ┷┯ *〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉*
    ╽
    ┠≽ *Prefix* : 「  ${prefix}  」
@@ -33,7 +32,7 @@ const islam = (prefix, botName, ownerName) => {
    ┠──────────────╼
    ┠≽ *${prefix}jsholat* <area>
    ┃ *Desc* :  Envío de información sobre el horario de oración
-   ╿ *${ownerName}*,
-   ╰╼≽ *Creador © ${botName}`
+   ╿ *Sammy*,
+   ╰╼≽ *Creador © Petaca`
 }
 exports.islam = islam

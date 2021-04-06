@@ -1,6 +1,6 @@
 const help = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
         return `
-┏ *〈 ${botName} 〉*
+┏ *〈 Petaca BOT 〉*
 ╿
 ┷┯ *〈 𝐼𝑁𝐹𝑂𝑅𝑀𝐴𝐶𝐼𝑂𝑁 〉*
    ╽
@@ -42,13 +42,9 @@ const help = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
    ┠≽ *${prefix}limitmenu* (𝑀𝑒𝑛𝑢 𝐷𝑒 𝐿𝑖𝑚𝑖𝑡𝑒𝑠)
    ┠≽ *${prefix}ownermenu* (𝑀𝑒𝑛𝑢 𝐷𝑒𝑙 𝐶𝑟𝑒𝑎𝑑𝑜𝑟)
    ┠≽ *${prefix}othermenu* (𝑀𝑒𝑛𝑢 𝐷𝑒 𝑂𝑡𝑟𝑜𝑠)
-   ╿ *${ownerName}*,
-   ╰╼≽  © ${botName}
-   *〈 𝐆𝐑𝐔𝐏𝐎𝐒 〉*
-   ┠≽ *Félix bot: https://bit.ly/39tPICH
-   ┠≽ *Mr-Pato 2: https://bit.ly/3wiL04v
-   ┠≽ *Satan bot: https://bit.ly/39v9M7K
-   ╰╼
+   ╿
+   ╰╼≽  
+  
    
    `
 }

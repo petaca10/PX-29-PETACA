@@ -119,7 +119,7 @@ const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
             + 'FN:Pato\n' // full name
             + 'ORG:Pato;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=994402886887:+994 40 288 68 87\n' // WhatsApp ID + phone number
+            + 'TEL;type=CELL;type=VOICE;waid=51969384131:++51 969-384-131\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 prefix = botPrefix
 blocked = []
@@ -415,7 +415,7 @@ async function starts() {
 								ownerB: '[❗] ¡Este comando solo puede ser utilizado por el creador del bot! ❌',
 								admin: '[❗] ¡Este comando solo puede ser utilizado por administradores del grupo! ❌',
 								Badmin: '[❗] ¡Este comando solo se puede usar cuando el bot es administrador! ❌',
-								daftarB: `──「 NO ESTÁS REGISTRADO 」──\nSuscribete al canal: https://youtube.com/channel/UCqCaZ_SEhSykF3-PR5os7YA \n Usa el comando: ${prefix}register para registrarte\nEjemplo: ${prefix}register Felixcrack|99`,
+								daftarB: `──「 PARA USAR LOS COMANDOS DEBES ESTÁR REGISTRADO 」──\ \n Usa el comando: ${prefix}register para registrarte\nEjemplo: ${prefix}register Petaca|18`,
                                 }
                         }
 					const apakah = ['Si','Nel']
