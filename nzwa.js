@@ -330,9 +330,6 @@ async function starts() {
 	await nzwa.connect({timeoutMs: 30*1000})
         fs.writeFileSync('./Nazwa.json', JSON.stringify(nzwa.base64EncodedAuthInfo(), null, '\t'))
 
-        console.log('=> Felixcrack Bot v29!')
-        lolcatjs.fromString('[Felix] Hola gracias por usar mi bot, espero te guste ;)')
-
 	nzwa.on('group-participants-update', async (anu) => {
 		if (!welkom.includes(anu.jid)) return
 		try {
@@ -435,7 +432,7 @@ async function starts() {
 			const isBotGroupAdmins = groupAdmins.includes(botNumber) || false
 			const isGroupAdmins = groupAdmins.includes(sender) || false
 			const isWelkom = isGroup ? welkom.includes(from) : false
-			const isNsfw = isGroup ? nsfw.includes(from) : false
+			const isNsfw = false
 			const isSimi = isGroup ? samih.includes(from) : false
 			const isOwner = ownerNumber.includes(sender)
                         const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
@@ -1182,12 +1179,6 @@ async function starts() {
 			                const uangku = checkATMuser(sender)
                                         await costum(help(pushname, prefix, botName, ownerName, reqXp, uangku), text, tescuk, cr)
                                         break
-                                case '18+menu':
-                                case 'adultomenu':
-                                case '+18menu':
-                                        if (!isRegister) return reply(mess.only.daftarB)
-                                        await costum(adult(prefix, botName, ownerName), text, tescuk, cr)
-                                        break
                                 case 'downloadermenu':
                                 case 'downloadmenu':
                                         if (!isRegister) return reply(mess.only.daftarB)
@@ -1347,26 +1338,6 @@ async function starts() {
 						nzwa.groupDemoteAdmin(from, mentioned)
 					}
 					break
-                                case 'randomhentai':
-                                        gatauda = body.slice(6)
-                                        if (!isRegister) return reply(mess.only.daftarB)
-                                        if (isLimit(sender)) return reply(ind.limitend(pusname))
-                                        reply(mess.wait)
-                                        anu = await fetchJson(`https://tobz-api.herokuapp.com/api/hentai?apikey=BotWeA`, {method: 'get'})
-                                        buffer = await getBuffer(anu.result)
-                                        nzwa.sendMessage(from, buffer, image, {quoted: mek})
-                                        await limitAdd(sender)
-                                        break
-                                case 'loli':
-                                        gatauda = body.slice(6)
-                                        if (!isRegister) return reply(mess.only.daftarB)
-                                        if (isLimit(sender)) return reply(ind.limitend(pusname))
-                                        reply(mess.wait)
-                                        anu = await fetchJson(`https://tobz-api.herokuapp.com/api/randomloli?apikey=BotWeA`, {method: 'get'})
-                                        buffer = await getBuffer(anu.result)
-                                        nzwa.sendMessage(from, buffer, image, {quoted: mek})
-                                        await limitAdd(sender)
-                                        break
                   case 'promote':
                   case 'promover':
 					nzwa.updatePresence(from, Presence.composing) 
@@ -2438,20 +2409,7 @@ async function starts() {
 					const by = hob[Math.floor(Math.random() * hob.length)]
 					nzwa.sendMessage(from, 'Pregunta : *'+hobby+'*\n\nRespuesta : '+ by, text, { quoted: mek })
 					break
-                    case 'nsfwneko':
-				    try{
-						if (!isNsfw) return reply('*NSFW ESTÁ DESACTIVADO*')
-                        if (!isRegister) return reply(mess.only.daftarB)
-                        if (isLimit(sender)) return reply(ind.limitend(pusname))
-						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwneko?apikey=BotWeA`, {method: 'get'})
-						buffer = await getBuffer(res.result)
-						nzwa.sendMessage(from, buffer, image, {quoted: mek, caption: 'mesum'})
-                                                await limitAdd(sender)
-					} catch (e) {
-						console.log(`Error :`, color(e,'red'))
-						reply('*ERROR*')
-					}
-					break
+                    
                                 case 'shota':
 				    try{
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/randomshota?apikey=BotWeA`, {method: 'get'})
@@ -2478,23 +2436,7 @@ async function starts() {
 					nzwa.sendMessage(from, buffer, image, {quoted: mek})
                     await limitAdd(sender)
 					break				
-                    case 'nsfw':
-					if (!isGroup) return reply(mess.only.group)
-					if (!isGroupAdmins) return reply(mess.only.admin)
-					if (args.length < 1) return reply('escribe 1 para ativar')
-					if (Number(args[0]) === 1) {
-						if (isNsfw) return reply('Ya está activo')
-						nsfw.push(from)
-						fs.writeFileSync('./database/json/nsfw.json', JSON.stringify(nsfw))
-						reply('❬ Activado ❭ Activado con exito')
-					} else if (Number(args[0]) === 0) {
-						nsfw.splice(from, 1)
-						fs.writeFileSync('./database/json/nsfw.json', JSON.stringify(nsfw))
-						reply('❬ Desactivado ❭ desactivado con exito')
-					} else {
-						reply('Escribe 1 para activar o 0 para desactivar')
-					}
-					break	
+                    
 				case 'quotes2':
                 if (!isRegister) return reply(mess.only.daftarB)
                 if (isLimit(sender)) return reply(ind.limitend(pusname))
@@ -2768,20 +2710,7 @@ async function starts() {
                                         nzwa.sendMessage(from, hasil, text, {quoted:mek})
                                         await limitAdd(sender)
                                         break
-                                case 'nsfwtrap':
-                                        try{
-                                                if (!isNsfw) return reply('❌ *NSFW DESACTIVADO* ❌')
-                                                if (!isRegister) return reply(mess.only.daftarB)
-                                                if (isLimit(sender)) return reply(ind.limitend(pusname))
-                                                res = await fetchJson(`https://tobz-api.herokuapp.com/nsfwtrap?apikey=BotWeA`, {method: 'get'})
-                                                buffer = await getBuffer(res.result)
-                                                nzwa.sendMessage(from, buffer, image, {quoted: mek, caption: '℘ąɬơ ცơɬ ۷4'})
-                                                await limitAdd(sender)
-                                        } catch (e) {
-                                                console.log(`*Error* :`, color(e,'red'))
-                                                reply('❌ *ERROR* ❌')
-                                        }
-                                        break
+                                
                                 case 'ping':    
 			   	        if (!isRegister) return reply(ind.userB)
                                         const timestamp = speed();

@@ -17,7 +17,7 @@ const help = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
    ┷┯ 〈 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〉
       ╽
       ┠≽ Creator : Petaca
-      ┠≽ Version : 29
+      ┠≽ Version : 30
       ┠≽ Developer : Sammy
     
       ╿
@@ -36,7 +36,6 @@ const help = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
    ┠≽ *${prefix}islammenu* (𝑀𝑒𝑛𝑢 𝐷𝑒 𝐼𝑠𝑙𝑎𝑚)
    ┠≽ *${prefix}stalkmenu* (𝑀𝑒𝑛𝑢 𝐷𝑒 𝐵𝑢𝑠𝑐𝑎𝑟 𝐸𝑛 𝑅𝑒𝑑𝑒𝑠)
    ┠≽ *${prefix}wibumenu* (𝑀𝑒𝑛𝑢 𝐷𝑒 𝑊𝑖𝑏𝑢)
-   ┠≽ *${prefix}18+menu* (𝑀𝑒𝑛𝑢 𝐷𝑒 𝑃𝑜𝑟𝑛𝑜)
    ┠≽ *${prefix}funmenu* (𝑀𝑒𝑛𝑢 𝐷𝑒 𝐷𝑖𝑣𝑒𝑟𝑠𝑖𝑜𝑛)
    ┠≽ *${prefix}todmenu* (𝑀𝑒𝑛𝑢 𝐷𝑒 𝑉𝑒𝑟𝑑𝑎𝑑 𝑂 𝑅𝑒𝑡𝑜)
    ┠≽ *${prefix}informationmenu* (𝑀𝑒𝑛𝑢 𝐷𝑒 𝐼𝑛𝑓𝑜𝑟𝑚𝑎𝑐𝑖𝑜𝑛)
